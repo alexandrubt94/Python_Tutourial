@@ -1,8 +1,3 @@
-a1 = input()
-b2 = input()
-c3 = input()
-
-
 def tri_type(a, b, c):
     if (a + b) <= c or (a + c) <= b or (c + b) <= a:
         print 'invalid'
@@ -14,4 +9,6 @@ def tri_type(a, b, c):
                 print("triunghi echilateral")
             else:
                     print("triunghi isoscel")
-tri_type(a1, b2, c3)
+tri_type(1, 2, 3)
+tri_type(3, 2, 3)
+tri_type(4, 4, 4)
